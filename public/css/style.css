@@ -1,0 +1,157 @@
+
+
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.logo {
+    padding: 10px;
+    margin-left: 30px;
+}
+.search {
+    padding: 20px;
+    margin-right: 150px;
+    position: relative;
+}
+.searchbar {
+    height: 40px;
+    background-color: #efefef;
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+}
+.searchbar:focus {
+    background-color: white;
+    outline: none;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+
+.info {
+    margin-top: 10px;
+    height: 100px;
+}
+.maininfo{
+    margin-top: 1px;
+    height: 100px;
+}
+
+.filterlogo {
+    width: 250px;
+    padding: 34px;
+    margin-left: 10px;
+    float: left;
+    
+    border-right: 1px solid #d4d5d9;
+}
+.extrainfo {
+    border-bottom: 1px solid #d4d5d9;
+    display: flex;
+    justify-content: space-between;
+}
+.result {
+    padding: 30px;
+}
+.dropbtn {
+    margin-top: 30px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #d4d5d9;
+
+    width: 250px;
+}
+.dropbtn:hover{
+    border-bottom: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+    padding: 15px;
+    margin-right: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    border-bottom: 1px solid #d4d5d9;
+    border-left: 1px solid #d4d5d9;
+    border-right: 1px solid #d4d5d9;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {
+    background-color: #ddd;
+}
+.filters{
+    float:left;
+    width: 250px;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.sidenav{
+    
+    margin-top: -1px;
+    float:left;
+    width:260px;
+}
+.filter-option{
+    border:1px solid #d4d5d9;
+}
+.custom-card{
+    
+    margin-top:10px;
+    border:none;
+}
+.card-img-top{
+    height: 300px;
+    width:250px;
+}
+.text{
+    margin-top:-10px;   
+}
+.searchresult{
+    margin-left:100px;
+}
+
+.search ul{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top:4px;
+overflow-x:hidden;
+    margin-left: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    z-index: 1;
+    width:300px;
+    position:absolute;
+    top:60px;
+    left:22px;
+    background-color: #fff;
+    list-style: none
+}
+.search ul li{
+ margin-bottom: 5px;
+    padding:5px;
+}
+.search ul li:hover{
+   background-color:lightgray;
+   }
+
